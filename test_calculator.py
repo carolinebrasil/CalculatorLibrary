@@ -11,7 +11,7 @@ class TestCalculator:
 
     def test_subtraction(self):
         assert 2 == calculator.subtract(4, 2)
-# This is a new line that ends the file.
 
     def test_multiplaction(self):
         assert 100 == calculator.multiply(10, 10)
+# This is a new line that ends the file.
