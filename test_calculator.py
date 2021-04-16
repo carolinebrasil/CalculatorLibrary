@@ -14,4 +14,7 @@ class TestCalculator:
 
     def test_multiplication(self):
         assert 100 == calculator.multiply(10, 10)
+        
+    def test_divide(self):
+        assert 1 == calculator.divide(50, 50)
 # This is a new line that ends the file.
